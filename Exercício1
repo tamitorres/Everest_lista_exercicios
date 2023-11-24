@@ -1,0 +1,17 @@
+def adicionarnalista ():
+    Lista1 = []
+    for i in range (1, 11):
+        Lista1.append(i)
+    return Lista1
+
+print (adicionarnalista)
+
+def retornaPenultimoEQuartoElementodeLista(Lista1):
+	for elemento in range:
+		if not Lista1:
+			return None 
+		else:
+			return Lista1 [4], Lista1 [9]
+
+print (adicionarnalista)
+print (retornaPenultimoEQuartoElementodeLista)
