@@ -1,0 +1,91 @@
+# 2. Retornar último elemento
+
+Lista1 = [7, 4, 56, 32, 5, 76, 87, 2]
+def ultimoElemento(Lista1):
+	for elemento in range:
+		if not Lista1:
+			return None 
+		else:
+			return Lista1 [-1]
+
+print (ultimoElemento)
+
+
+# 3. Ordenando lista Decrescente
+Lista0 = [7, 89, 4, 56, 32, 5, 76, 87, 2]
+
+def ordena_lista(Lista0):
+    for i in range:
+        Lista0.sort (reverse = True)
+    return Lista0
+
+print (ordena_lista)
+
+
+Lista0 = [7, 89, 4, 56, 32, 5, 76, 87, 2]
+
+Lista0.sort (reverse = True)
+print (Lista0)
+
+# 4. Remover elementos vazios
+
+Lista5 = ["João", "Maria", "Fernanda", "", "Ricardo", "", "Rogerio",]
+
+def removerElementosVazios (Lista5):
+    for elemento in range:
+        Lista5 = list(filter(lambda elemento:elemento != "", Lista5))
+    return Lista5
+
+print (removerElementosVazios)
+
+# 5. Slice de Lista
+
+Lista6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+def particionarLista(Lista6):
+   for elemento in range: 
+        Lista6_slice = Lista6 [5:12]
+   return Lista6_slice
+
+print (particionarLista)
+
+Lista6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+ 
+Lista6_slice = Lista6 [5:12]
+print (Lista6_slice)
+
+# 6. Adicionar elemento na lista
+
+Lista7 = [1, 2, 3, 4, 5, 6]
+
+Lista7.insert (3, 42)
+
+print (Lista7)
+
+def adicionarElemento(Lista7):
+    for i in range:
+        Lista7.insert (3, 42)
+    return Lista7
+
+print (adicionarElemento)
+
+# 8. utilizando zip
+
+Lista1 = [1, 3, 5, 6, 7, 7]
+Lista2 = ["maçã", "uva", "banana", "framboesa", "limão", "kiwi"]
+
+def ultimoElementoLista2D(Lista1, Lista2):
+    mescla = [(x, y) for x, y in zip(Lista1, Lista2)]
+    elemento = mescla [-1]
+    return elemento 
+
+print (ultimoElementoLista2D)
+
+Lista1 = [1, 3, 5, 6, 7, 7]
+Lista2 = ["maçã", "uva", "banana", "framboesa", "limão", "kiwi"]
+mescla = [(x, y) for x, y in zip(Lista1, Lista2)]
+elemento = mescla [-1]
+
+print (mescla)
+print (elemento)
+
