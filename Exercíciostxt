@@ -1,0 +1,42 @@
+1. Faça um programa que olhe todos os itens de uma lista e diga quantos deles são pares.
+
+Lista1 = [56, 90, 98, 97, 65, 45, 34, 33, 23, 22]
+
+lista_pares = 0
+
+for elemento in Lista1:
+    if elemento % 2 == 0:
+        lista_pares += 1
+        
+print (f"Os números pares da lista são {lista_pares}")
+
+2. Faça um programa que imprima o maior número de uma lista, sem usar o método max()
+
+Lista1 = [56, 90, 98, 97, 65, 45, 34, 33, 23, 22]
+
+for elemento in Lista1:
+    if elemento > maior_numero:
+        maior_numero = elemento
+        
+print (f"O maior número da lista é {maior_numero}")
+
+3. Faça um Programa que peça as 4 notas bimestrais e mostre a média, usando listas.
+
+notas = []
+
+for i in range (4):
+    nota = float(input("Qual sua nota?"))
+    notas.append (nota)
+    
+media = sum (notas) /4
+    
+print (notas)
+print (media)
+
+4. Considere que temos uma lista com os nomes de todos os alunos de uma turma, e outra com as notas, na mesma ordem. Como faríamos para acessar, simultaneamente, o nome de um aluno e a sua nota?
+
+nome_alunos = ["Ana", "Leandro", "Danilo", "João", "Vanessa"]
+nota_alunos = [10, 5, 10, 6, 3]
+
+for nome, nota in zip(nome_alunos, nota_alunos):
+    print (nome, nota)
